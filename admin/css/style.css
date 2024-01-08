@@ -1,0 +1,15 @@
+.login-content{
+background: linear-gradient(#FF61D2 , #FE9090);
+}
+
+.backtodashboard{
+    text-align: center;
+}
+.app-content{
+    margin-left: 0%;
+}
+.booking{
+    margin-top: 50px;
+
+    position: relative;
+}

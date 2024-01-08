@@ -1,0 +1,44 @@
+.update {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.update .label1 {
+    float: left;
+    margin-bottom: 8px;
+}
+
+.update .label2 {
+    float: right;
+    margin-bottom: 8px;
+}
+
+.update label{
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}   

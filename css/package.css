@@ -1,0 +1,85 @@
+/* Package section */
+
+.pack1 {
+	display: flexbox;
+	text-align: center;
+	background: #f9f2f0;
+	padding-bottom: 40px;
+	margin: 15px 0;
+	border-radius: 13px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pack1:hover {
+	-webkit-box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+    text-align: center;
+}
+
+.pack1 .pack2 {
+	height: 156px;
+	padding-top: 26px;
+	background: #f65d5d;
+}
+
+.pack1 .pack2 h4 {
+	font-family: "Playfair Display", serif;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.pack1 .pack3 {
+	width: 144px;
+	height: 144px;
+	margin: -71px auto 30px;
+	padding-top: 35px;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+}
+
+.pack1 .pack3 h3 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #666666;
+}
+
+.pack1 .pack3 p {
+	text-transform: uppercase;
+	color: #999999;
+}
+
+.pack1 ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.pack1 ul li {
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 12px;
+}
+
+.pack1.begginer .pi-top {
+	background: #fdb07d;
+}
+
+.pack1.entermediate .pi-top {
+	background: #fa8f70;
+}
+
+.pack1.advanced .pi-top {
+	background: #f2786f;
+}
+
+.pack1.professional .pi-top {
+	background: #f65d5d;
+}

@@ -1,0 +1,67 @@
+.signup-map {
+	position: relative;
+	height: 100%;
+	background: #ddd;
+	border-radius: 12px;
+	-webkit-box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	.signup-map {
+		height: 400px;
+		margin-bottom: 40px;
+	}
+}
+
+.signup-map iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.singup-text {
+	padding-right: 50px;
+	margin-bottom: 40px;
+}
+
+.singup-text h3 {
+	font-weight: 400;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 15px;
+}
+
+.singup-form input,
+.singup-form textarea {
+	width: 100%;
+	height: 49px;
+	padding: 5px 28px;
+	font-size: 19px;
+	color: #999999;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #454343;
+	background: #fafafa;
+}
+
+.singup-form textarea {
+	height: 140px;
+	padding: 15px 28px 10px;
+	border-radius: 20px;
+	resize: none;
+}
+
+#submit{
+	color: black;
+	background-image: linear-gradient(red,orange);
+	
+}
+
+.contact-page-section {
+	background-image: linear-gradient(#EE9CA7 , #FFDDE1);
+}
